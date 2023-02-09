@@ -5,8 +5,6 @@
 ![hw02](https://github.com/saddleback-college-cs1b/hw02-prime-rand-review-larsonkyle/actions/workflows/hw02_tests.yml/badge.svg)
 
 
-TODO - Add a badge to github actions here (see references for documentation)
-
 ## Problem Statement
 
 Write a program that uses a random number generator to generate a two-digit positive integer and allows the user to perform one or more of the following operations:
