@@ -1,8 +1,9 @@
 # HW02: Review of Random and Prime Numbers
 
-## Firstname Lastname
+## Kyle Larson
 
-TODO - Update your name in this readme
+![hw02](https://github.com/saddleback-college-cs1b/hw02-prime-rand-review-larsonkyle/actions/workflows/hw02_tests.yml/badge.svg)
+
 
 TODO - Add a badge to github actions here (see references for documentation)
 
