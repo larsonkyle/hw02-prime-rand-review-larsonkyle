@@ -2,7 +2,7 @@
 
 int generateNum() {
 	std::srand((unsigned) std::time(NULL));
-	return std::rand() % 100;
+	return (std::rand() % 100) + 10;
 }
 
 int doubleNum(int num) {
