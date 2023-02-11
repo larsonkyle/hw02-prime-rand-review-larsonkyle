@@ -2,7 +2,7 @@
 
 int generateNum() {
 	int num;
-	std::srand((unsigned) std::time(0));
+	// std::srand((unsigned) std::time(0));
 	num = (rand() % 100) + 10;
 	return num;
 }
