@@ -1,6 +1,6 @@
 #include "print_menu.h"
 
-void printmenu() {
+void print_menu() {
 		std::cout << "1: Enter 1 to double the number." << std::endl;
 		std::cout << "2: Enter 2 to reverse the digits of the number." << std::endl;
 		std::cout << "3: Enter 3 to raise the number to the power of the second digit." << std::endl;
