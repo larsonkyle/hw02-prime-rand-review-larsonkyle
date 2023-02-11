@@ -16,5 +16,9 @@ bool isNumPrime(int num) {
 }
 
 int addTen(int num) {
-	return num + 10;
+	if (num < 10) {
+		num += 10;
+	}
+	
+	return num;
 }
