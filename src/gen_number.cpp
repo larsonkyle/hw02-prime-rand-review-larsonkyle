@@ -1,8 +1,10 @@
 #include "gen_number.h"
 
 int generateNum() {
-	std::srand((unsigned) std::time(NULL));
-	return (std::rand() % 100) + 10;
+	int num;
+	std::srand((unsigned) std::time(0));
+	num = (rand() % 100) + 10;
+	return num;
 }
 
 int doubleNum(int num) {
