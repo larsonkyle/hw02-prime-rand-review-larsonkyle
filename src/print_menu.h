@@ -1,1 +1,7 @@
-// Please place all function prototypes for print_menu.cpp here
+# ifndef _PRINT_MENU_H
+# define _PRINT_MENU_H
+#include <iostream>
+
+void print_menu();
+
+# endif
