@@ -1,1 +1,8 @@
-// Please put all function prototypes for post_process.cpp here
+# ifndef _POST_PROCESS_H
+# define _POST_PROCESS_H
+
+bool isNumPrime(int num);
+
+int addTen(int num);
+
+# endif
