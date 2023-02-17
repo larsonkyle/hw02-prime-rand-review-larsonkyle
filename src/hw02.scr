@@ -1,0 +1,98 @@
+Script started on 2023-02-16 16:38:43-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="203" LINES="62"]
+]0;stdsoul@csvm: ~/cs1b_course/homework/hw02-prime-rand-review-larsonkyle/src[01;32mstdsoul@csvm[00m:[01;34m~/cs1b_course/homework/hw02-prime-rand-review-larsonkyle/src[00m$ make all
+make: Circular print_menu.o <- print_menu.o dependency dropped.
+g++ -c print_menu.cpp -o print_menu.o
+make: Circular gen_number.o <- gen_number.o dependency dropped.
+g++ -c gen_number.cpp -o gen_number.o
+make: Circular post_process.o <- post_process.o dependency dropped.
+g++ -c post_process.cpp -o post_process.o
+g++ hw02.cpp -o hw02 print_menu.o gen_number.o post_process.o
+]0;stdsoul@csvm: ~/cs1b_course/homework/hw02-prime-rand-review-larsonkyle/src[01;32mstdsoul@csvm[00m:[01;34m~/cs1b_course/homework/hw02-prime-rand-review-larsonkyle/src[00m$ ./hw02
+The two digit number is: 93
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of the second digit.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+1
+186 is not prime.
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of the second digit.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+2
+681 is not prime.
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of the second digit.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+3
+Enter power (2, 3, or 4):
+3
+315821241 is not prime.
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of the second digit.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+4
+27 is not prime.
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of the second digit.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+5
+128 is not prime.
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of the second digit.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+6
+128 is not prime.
+1: Enter 1 to double the number.
+2: Enter 2 to reverse the digits of the number.
+3: Enter 3 to raise the number to the power of the second digit.
+4: Enter 4 to sum the digits of the number.
+5: Enter 5 to raise the first digit to the power of the second digit.
+6: Enter 6 to raise the first two digits the power of the last digit.
+9: Enter 9 to terminate the program.
+9
+Program is Terminating...
+]0;stdsoul@csvm: ~/cs1b_course/homework/hw02-prime-rand-review-larsonkyle/src[01;32mstdsoul@csvm[00m:[01;34m~/cs1b_course/homework/hw02-prime-rand-review-larsonkyle/src[00m$ ls -l
+total 72
+-rw-rw-r-- 1 stdsoul stdsoul   205 Feb  8 21:38 CMakeLists.txt
+-rw-rw-r-- 1 stdsoul stdsoul  1043 Feb 10 20:26 gen_number.cpp
+-rw-rw-r-- 1 stdsoul stdsoul   344 Feb  9 19:22 gen_number.h
+-rw-rw-r-- 1 stdsoul stdsoul  2896 Feb 16 16:38 gen_number.o
+-rwxrwxr-x 1 stdsoul stdsoul 18256 Feb 16 16:38 [0m[01;32mhw02[0m
+-rw-rw-r-- 1 stdsoul stdsoul  1004 Feb 10 20:00 hw02.cpp
+-rw-rw-r-- 1 stdsoul stdsoul     0 Feb 16 16:38 hw02.scr
+-rw-rw-r-- 1 stdsoul stdsoul   433 Feb 16 16:32 Makefile
+-rw-rw-r-- 1 stdsoul stdsoul   310 Feb 10 17:51 post_process.cpp
+-rw-rw-r-- 1 stdsoul stdsoul   108 Feb  9 17:22 post_process.h
+-rw-rw-r-- 1 stdsoul stdsoul  1560 Feb 16 16:38 post_process.o
+-rw-rw-r-- 1 stdsoul stdsoul   631 Feb 10 19:52 print_menu.cpp
+-rw-rw-r-- 1 stdsoul stdsoul    95 Feb 10 19:55 print_menu.h
+-rw-rw-r-- 1 stdsoul stdsoul  4280 Feb 16 16:38 print_menu.o
+]0;stdsoul@csvm: ~/cs1b_course/homework/hw02-prime-rand-review-larsonkyle/src[01;32mstdsoul@csvm[00m:[01;34m~/cs1b_course/homework/hw02-prime-rand-review-larsonkyle/src[00m$ make clean
+rm -f *.o all
+]0;stdsoul@csvm: ~/cs1b_course/homework/hw02-prime-rand-review-larsonkyle/src[01;32mstdsoul@csvm[00m:[01;34m~/cs1b_course/homework/hw02-prime-rand-review-larsonkyle/src[00m$ exit
+exit
+
+Script done on 2023-02-16 16:39:26-08:00 [COMMAND_EXIT_CODE="0"]
